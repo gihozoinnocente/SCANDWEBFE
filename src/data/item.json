@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Fried potatoes",
+      "price": 10.99,
+      "imgUrl": "../../public/images/imageone.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Vegetables",
+      "price": 1199,
+      "imgUrl": "../../public/images/imagetwo.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pizza",
+      "price": 1.05,
+      "imgUrl": "../../public/images/imagethree.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fried potatoes",
+      "price": 14000,
+      "imgUrl": "../../public/images/imageone.jpg"
+    }
+  ]
