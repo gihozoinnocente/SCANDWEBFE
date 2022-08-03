@@ -3,7 +3,8 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div`
 background-color: grey;
 height: 580px;
-
+margin-top: 80px;
+margin-left: -60px;
 @media screen and (max-width: 768px){
     padding: 100px 5;
 };
@@ -17,14 +18,15 @@ max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
 margin-bottom: 200px;
+
 /* padding:0 24px; */
 /* justify-content: center; */
 `
 
 export const InfoRow = styled.div`
-display: grid;
+/* display: grid; */
 
-/* background-color: red; */
+/* background-color: blue; */
 /* grid-auto-columns: minmax(auto, 1fr); */
 /* align-items:center; */
 /* grid-template-areas: ${({imgStart})=>(imgStart ? `'col2 col1'`:`'col1 col2`)}; */
@@ -56,6 +58,8 @@ height: 338px;
 padding-top: 0;
 border: 1px solid;
 margin-left: 20px;
+
+
 /* display: -ms-inline-grid; */
 /* gap: 200; */
 background-color: green;
@@ -64,13 +68,16 @@ background-color: green;
 `
 
 export const TopLine = styled.p`
-color: #000;
+color: #1D1F22;
 font-size: 32px;
 line-height: 16px;
 font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
-margin-left: 0px;
+
+padding-top: 68px;
+padding-bottom: 50px;
+/* background-color: red; */
 `
 
 export const Heading = styled.h1`
@@ -87,9 +94,17 @@ font-weight: 600;
 
 export const Subtitle = styled.p`
 /* max-width: 440px; */
-/* margin-bottom: 35px; */
-font-size: 18px;
+margin-top: -75px;
+font-size: 25px;
 line-height: 24px;
+// color: ${({darkText})=> (darkText ? '#010606':'#fff')}
+`
+
+export const Currency = styled.p`
+/* max-width: 440px; */
+margin-top: -20px;
+font-size: 16px;
+line-height: 15px;
 // color: ${({darkText})=> (darkText ? '#010606':'#fff')}
 `
 export const BtnWrap = styled.div`
@@ -98,12 +113,12 @@ justify-content: flex-start;
 `
 
 export const ImgWrap = styled.div`
-/* max-width: 555px; */
+max-width: 555px;
 height: 100%;
 `
 
 export const Img = styled.img`
-/* width: 100%; */
-margin: 0 0 10px 0;
+width: 100%;
+/* margin: 0 0 0 0; */
 padding-right: 0;
 `
